@@ -1,0 +1,60 @@
+/* home.css */
+.home-section {
+    background-color: var(--brand-dark);
+    color: var(--text-white);
+    padding: 100px 0;
+    position: relative;
+}
+
+.home-content {
+    max-width: 700px;
+}
+
+.home-content h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.home-content h1 span { color: var(--brand-blue); }
+
+.home-content .desc {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--text-white);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid var(--text-white);
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background: var(--text-white);
+    color: var(--brand-dark);
+}
+
+.trust-badges {
+    display: flex;
+    gap: 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.trust-badges i {
+    color: var(--brand-blue);
+    margin-right: 5px;
+}
